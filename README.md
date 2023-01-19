@@ -1,4 +1,6 @@
 # NavResource
+> 建议去CDN提供商处获取jQuery库之类的库的远程地址。
+
 hexo-theme-webstack的部分源代码，为了构建单页导航时远程引用之用。
 
 ## 建仓库的原因

@@ -12,31 +12,32 @@ hexo-theme-webstack的部分源代码，为了构建单页导航时远程引用�
 ```yaml
 # NavRoot\nav\_config.webstack.yml最底部的代码
 js:
-  header: https://cdn.jsdelivr.net/gh/lizilong1993/NavResource@gh-pages/js/header.js
-  footer: https://cdn.jsdelivr.net/gh/lizilong1993/NavResource@gh-pages/js/footer.js
-  jquery: https://cdn.jsdelivr.net/gh/lizilong1993/NavResource@gh-pages/js/jquery-1.11.1.min.js
-  bootstrap: https://cdn.jsdelivr.net/gh/lizilong1993/NavResource@gh-pages/js/bootstrap.min.js
-  TweenMax: https://cdn.jsdelivr.net/gh/lizilong1993/NavResource@gh-pages/js/TweenMax.min.js
-  resizeable: https://cdn.jsdelivr.net/gh/lizilong1993/NavResource@gh-pages/js/resizeable.min.js
-  joinable: https://cdn.jsdelivr.net/gh/lizilong1993/NavResource@gh-pages/js/joinable.js
-  xenonApi: https://cdn.jsdelivr.net/gh/lizilong1993/NavResource@gh-pages/js/xenon-api.min.js
-  xenonToggles: https://cdn.jsdelivr.net/gh/lizilong1993/NavResource@gh-pages/js/xenon-toggles.min.js
-  xenonCustom: https://cdn.jsdelivr.net/gh/lizilong1993/NavResource@gh-pages/js/xenon-custom.min.js
-  lozad: https://cdn.jsdelivr.net/gh/lizilong1993/NavResource@gh-pages/js/lozad.min.js
-  html5shiv: https://cdn.jsdelivr.net/gh/lizilong1993/NavResource@gh-pages/js/html5shiv.min.js
-  respond: https://cdn.jsdelivr.net/gh/lizilong1993/NavResource@gh-pages/js/respond.min.js
+  header: https://cdn.jsdelivr.net/gh/lizilong1993/NavResource@main/js/header.js
+  footer: https://cdn.jsdelivr.net/gh/lizilong1993/NavResource@main/js/footer.js
+  jquery: https://cdn.jsdelivr.net/gh/lizilong1993/NavResource@main/js/jquery-1.11.1.min.js
+  bootstrap: https://cdn.jsdelivr.net/gh/lizilong1993/NavResource@main/js/bootstrap.min.js
+  TweenMax: https://cdn.jsdelivr.net/gh/lizilong1993/NavResource@main/js/TweenMax.min.js
+  resizeable: https://cdn.jsdelivr.net/gh/lizilong1993/NavResource@main/js/resizeable.min.js
+  joinable: https://cdn.jsdelivr.net/gh/lizilong1993/NavResource@main/js/joinable.js
+  xenonApi: https://cdn.jsdelivr.net/gh/lizilong1993/NavResource@main/js/xenon-api.min.js
+  xenonToggles: https://cdn.jsdelivr.net/gh/lizilong1993/NavResource@main/js/xenon-toggles.min.js
+  xenonCustom: https://cdn.jsdelivr.net/gh/lizilong1993/NavResource@main/js/xenon-custom.min.js
+  lozad: https://cdn.jsdelivr.net/gh/lizilong1993/NavResource@main/js/lozad.min.js
+  html5shiv: https://cdn.jsdelivr.net/gh/lizilong1993/NavResource@main/js/html5shiv.min.js
+  respond: https://cdn.jsdelivr.net/gh/lizilong1993/NavResource@main/js/respond.min.js
   busuanzi: https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
 
 css:
-  hclonely: https://cdn.jsdelivr.net/gh/lizilong1993/NavResource@gh-pages/css/hclonely.css
+  hclonely: https://cdn.jsdelivr.net/gh/lizilong1993/NavResource@main/css/hclonely.css
   fonts: //fonts.loli.net/css?family=Arimo:400,700,400italic
-  linecons: https://cdn.jsdelivr.net/gh/lizilong1993/NavResource@gh-pages/css/fonts/linecons/css/linecons.min.css
-  fontawesome: https://cdn.jsdelivr.net/gh/lizilong1993/NavResource@gh-pages/css/fonts/fontawesome/css/all.min.css
-  bootstrap: https://cdn.jsdelivr.net/gh/lizilong1993/NavResource@gh-pages/css/bootstrap.min.css
-  xenonCore: https://cdn.jsdelivr.net/gh/lizilong1993/NavResource@gh-pages/css/xenon-core.min.css
-  xenonComponents: https://cdn.jsdelivr.net/gh/lizilong1993/NavResource@gh-pages/css/xenon-components.min.css
-  xenonSkins: https://cdn.jsdelivr.net/gh/lizilong1993/NavResource@gh-pages/css/xenon-skins.min.css
-  nav: https://cdn.jsdelivr.net/gh/lizilong1993/NavResource@gh-pages/css/nav.min.css
+  linecons: https://cdn.jsdelivr.net/gh/lizilong1993/NavResource@main/css/fonts/linecons/css/linecons.min.css
+  fontawesome: https://cdn.jsdelivr.net/gh/lizilong1993/NavResource@main/css/fonts/fontawesome/css/all.min.css
+  bootstrap: https://cdn.jsdelivr.net/gh/lizilong1993/NavResource@main/css/bootstrap.min.css
+  xenonCore: https://cdn.jsdelivr.net/gh/lizilong1993/NavResource@main/css/xenon-core.min.css
+  xenonComponents: https://cdn.jsdelivr.net/gh/lizilong1993/NavResource@main/css/xenon-components.min.css
+  xenonSkins: https://cdn.jsdelivr.net/gh/lizilong1993/NavResource@main/css/xenon-skins.min.css
+  nav: https://cdn.jsdelivr.net/gh/lizilong1993/NavResource@main/css/nav.min.css
+
 ```
 5. 如果不想使用本地的flag-cn.png文件的话，建议修改这里
 ```yaml
